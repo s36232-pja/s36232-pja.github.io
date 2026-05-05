@@ -7,6 +7,8 @@
 <body>
 <header>
  <h1>Zupa zebowa</h1>
+ <header style="background-color: black;
+color:pink; font-weight: italic;">
 </header>
  <h1>Zupy swiatowe</h1>
  <p>Zupa z elfa.</p>
