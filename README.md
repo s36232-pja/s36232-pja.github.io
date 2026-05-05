@@ -8,10 +8,6 @@
 <body>
 <header>
  <h1>Zupa zebowa</h1>
-  <style>
-  body {
-    color: pink;
-  }
 </header>
  <h1>Zupy swiatowe</h1>
  <p>Zupa z elfa.</p>
