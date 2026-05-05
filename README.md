@@ -3,15 +3,15 @@
 <head>
  <title>A Meaningful Page Title</title>
  <meta name="description" content="Web turorials">
- <style>
-  body {
-    color: pink;
-  }
 </style>
 </head>
 <body>
 <header>
  <h1>Zupa zebowa</h1>
+  <style>
+  body {
+    color: pink;
+  }
 </header>
  <h1>Zupy swiatowe</h1>
  <p>Zupa z elfa.</p>
