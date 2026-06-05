@@ -1,5 +1,70 @@
 ```html
 <!DOCTYPE html>
+/* Czcionka Roboto Mono – kod z W3Schools / Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f7; /* jasny pastelowy szary */
+    color: #333333;
+}
+
+header {
+    background-color: #cfd8e6; /* pastelowy niebieski */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #b23b3b; /* pastelowy czerwony */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    color: #2f3b52; /* ciemniejszy niebiesko-szary */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #cfd8e6;
+    font-size: 0.9rem;
+}
+
+/* Przykład akapitów i wyróżnień */
+p {
+    line-height: 1.6;
+}
+
 <html lang="pl">
 
 <head>
@@ -13,8 +78,6 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
-<body>
 
     <!-- MENU -->
     <nav>
@@ -73,6 +136,50 @@
     <footer>
         Imię Nazwisko | Numer studenta
     </footer>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Skull Panda – Mystery Boxy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Skull Panda</h1>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="skullpanda.html">Skull Panda</a>
+        <a href="hirono.html">Hirono</a>
+        <a href="blindboxy.html">Moja opinia</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Seria Skull Panda</h2>
+    <p>
+        <strong>Skull Panda</strong> to jedna z najbardziej rozpoznawalnych serii blind boxów. 
+        Figurki mają charakterystyczny, lekko mroczny, ale jednocześnie uroczy styl. 
+        Dzięki temu wyróżniają się na tle innych kolekcji.
+    </p>
+
+    <p>
+        Kolekcjonerzy cenią Skull Pandę za <em>oryginalne projekty</em>, 
+        detale oraz spójny klimat całej serii. 
+        Każda figurka ma swój własny charakter i historię.
+    </p>
+
+    <h3>Przykładowa grafika lokalna</h3>
+    <p>
+        Poniżej przykład obrazka wczytanego z lokalnego pliku (ścieżka względna).  
+        Upewnij się, że plik istnieje w folderze <code>images/</code>.
+    </p>
+    <img src="images/skullpanda1.jpg" alt="Figurka Skull Panda">
+
+</main>
+
+<footer>
+    Autor: Imię Nazwisko, nr studenta: 000000
+</footer>
 
 </body>
 
