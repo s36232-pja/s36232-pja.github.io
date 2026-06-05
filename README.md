@@ -1,76 +1,80 @@
-```css
-/* Import czcionki z Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+```html
+<!DOCTYPE html>
+<html lang="pl">
 
-body {
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
-    background-color: #d9e4ec;
-    color: #2d2d2d;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Boxy</title>
 
-/* Pasek nawigacji */
-nav {
-    background-color: #7a9eb1;
-    padding: 15px;
-    text-align: center;
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-    padding: 10px 18px;
-    background-color: #b85c5c;
-    border-radius: 10px;
-    transition: 0.3s;
-}
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
 
-/* Hover */
-nav a:hover {
-    background-color: #8f3f3f;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
+<body>
 
-/* Główna zawartość */
-main {
-    width: 80%;
-    margin: auto;
-    padding: 30px;
-}
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="skullpanda.html">Skull Panda</a>
+        <a href="hirono.html">Hirono</a>
+        <a href="opinia.html">Moja Opinia</a>
+    </nav>
 
-/* Nagłówki */
-h1 {
-    color: #b85c5c;
-    text-align: center;
-}
+    <!-- GŁÓWNA CZĘŚĆ -->
+    <main>
 
-h2 {
-    color: #5d7d91;
-}
+        <h1>Fenomen Mystery Boxów</h1>
 
-/* Obrazki */
-img {
-    width: 300px;
-    border-radius: 15px;
-    display: block;
-    margin: 20px auto;
-}
+        <section class="card">
 
-/* Sekcje */
-.section-box {
-    background-color: rgba(255,255,255,0.6);
-    padding: 20px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
+            <p>
+                Mystery Boxy oraz Blind Boxy są bardzo popularne na całym świecie.
+                Polegają na kupowaniu figurek bez wiedzy jaki model znajduje się w środku.
+            </p>
 
-/* Stopka */
-footer {
-    background-color: #7a9eb1;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
+            <p>
+                Najbardziej znane kolekcje to
+                <strong>Skull Panda</strong>
+                oraz
+                <em>Hirono</em>.
+            </p>
+
+            <p>
+                Wiele osób traktuje to jako hobby oraz formę kolekcjonowania.
+            </p>
+
+        </section>
+
+        <!-- OBRAZEK Z INTERNETU -->
+        <img
+            src="https://i.pinimg.com/736x/91/e0/7e/91e07e1fbff63e7c4f12f3f42e0b66f7.jpg"
+            alt="Mystery Box">
+
+        <section class="card">
+
+            <h2>Dlaczego ludzie lubią blind boxy?</h2>
+
+            <ul>
+                <li>element niespodzianki</li>
+                <li>ładne figurki</li>
+                <li>kolekcjonowanie</li>
+                <li>rzadkie modele secret</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <!-- STOPKA -->
+    <footer>
+        Imię Nazwisko | Numer studenta
+    </footer>
+
+</body>
+
+</html>
 ```
