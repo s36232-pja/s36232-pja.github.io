@@ -1,0 +1,64 @@
+/* Czcionka Roboto Mono – kod z W3Schools / Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f7; /* jasny pastelowy szary */
+    color: #333333;
+}
+
+header {
+    background-color: #cfd8e6; /* pastelowy niebieski */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #b23b3b; /* pastelowy czerwony */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    color: #2f3b52; /* ciemniejszy niebiesko-szary */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #cfd8e6;
+    font-size: 0.9rem;
+}
+
+/* Przykład akapitów i wyróżnień */
+p {
+    line-height: 1.6;
+}
